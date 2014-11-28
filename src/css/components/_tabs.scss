@@ -1,0 +1,65 @@
+.tab {
+  @include clearfix;
+
+  ul {
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  label {
+    font-weight: 400;
+    color: #444;
+  }
+
+  a {
+    padding: 10px 15px;
+    display: block;
+    background: #F8F8F8;
+    color: #222;
+    font-weight: 400;
+  }
+
+  li.active a {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: #fff;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-width: 400px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+/*
+<div class="tab">
+  <nav class="tab-nav">
+    <ul>
+      <li class="active"><a href="#tab1">Brasil</a></li>
+      <li><a href="#tab2">Estados Unidos</a></li>
+    </ul>
+  </nav>
+
+  <div class="tab-content">
+    <div id="#tab1" class="tab-pane active">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam qui natus laboriosam reiciendis quos mollitia asperiores, dolore exercitationem. Nostrum, excepturi vitae veritatis. Eos consectetur, enim, dolorem animi odio ratione.
+    </div>
+    <div id="#tab2" class="tab-pane">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam qui natus laboriosam reiciendis quos mollitia asperiores, dolore exercitationem. Nostrum, excepturi vitae veritatis. Eos consectetur, enim, dolorem animi odio ratione.
+    </div>
+  </div>
+</div>
+*/

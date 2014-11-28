@@ -1,0 +1,33 @@
+.newapp-hint {
+  @include clearfix;
+  background: #FAFAFA;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.newapp-hint-box {
+  @include span-columns(4);
+  padding: 0 15px;
+  position: relative;
+
+  h5 {
+    font-weight: 500;
+  }
+
+  &:after {
+   content: url(../images/arrow.png);
+   position: absolute;
+   right: -30px;
+   top: -14px;
+  }
+
+  &:last-child:after {
+    content: '';
+  }
+
+  p {
+    margin-left: 28px;
+    margin-top: 10px;
+  }
+}
+

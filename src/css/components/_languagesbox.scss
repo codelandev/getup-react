@@ -1,0 +1,50 @@
+.lang-row {
+  margin-bottom: 40px;
+
+  h4 {
+    font-weight: 500;
+  }
+}
+
+.lang-title {
+  font-size: em(12px);
+  font-weight: 300;
+}
+
+.cart-box {
+  @include span-columns(2.6);
+  text-align: center;
+  position: relative;
+  height: 160px;
+  display: table;
+  padding: 20px;
+  border-right: 2px dotted #f7f7f7;
+  margin-right: 0;
+
+  &:hover {
+    background: #FAFAFA;
+  }
+
+  &:last-child {
+    border-color: #fff;
+  }
+}
+
+.cart-title {
+  position: relative;
+  bottom: -20px;
+  padding: 5px;
+  font-size: em(10px);
+}
+
+.cart-question {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  display: none;
+}
+
+.centered {
+  display: table-cell;
+  vertical-align: middle;
+}

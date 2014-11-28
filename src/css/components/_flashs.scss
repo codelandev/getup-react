@@ -1,0 +1,17 @@
+.flash {
+  width: 100%;
+  padding: 5px 20px 5px;
+  margin: 20px 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.error {
+  @extend .flash;
+  background: #CD3301;
+}
+
+.success {
+  @extend .flash;
+  background: #01CC00;
+}

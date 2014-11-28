@@ -1,0 +1,19 @@
+.nav {
+  background: $brand-gray;
+  @include clearfix;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.nav-logo {
+  float: left;
+  width: 100px;
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
+  text-align: center;
+
+  img {
+    height: 20px;
+  }
+}

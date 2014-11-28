@@ -1,0 +1,20 @@
+.group-buttons {
+  width: auto;
+  float: right;
+
+  button,
+  a,
+  input[type='submit'] {
+    display: inline-block;
+    margin-left: 20px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.group-newapp {
+  @include clearfix;
+  margin: 30px 0;
+}

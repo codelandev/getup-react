@@ -1,0 +1,19 @@
+.code-box {
+  margin: 20px 0;
+
+  .title {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+code {
+  background: #FEFEFE;
+  border-left: 2px solid #ccc;
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  box-shadow: 0px 0px 1px rgba(#000, .2);
+  color: #222;
+  line-height: 1.8;
+}

@@ -1,0 +1,31 @@
+.wrapper,
+.conteudo {
+  position: relative;
+  min-height: 100%;
+}
+
+.container {
+  @include outer-container;
+}
+
+.row {
+  @include row;
+}
+
+.half {
+  @include span-columns(6);
+}
+
+.third {
+  @include span-columns(4);
+}
+
+.left {
+  float: left;
+  position: relative;
+}
+
+.right {
+  float: right;
+  position: relative;
+}

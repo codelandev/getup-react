@@ -1,0 +1,39 @@
+.form-center {
+  width: 18%;
+  margin: 0 auto;
+}
+
+.group-control {
+  margin-bottom: 15px;
+
+  label.block {
+    position: absolute;
+    top: -16px;
+    font-size: 12px;
+    color: inherit;
+  }
+
+  .website-link {
+    position: relative;
+    bottom: -50px;
+  }
+}
+
+.group-control-inline {
+  @extend .group-control;
+
+  float: left;
+  position: relative;
+  margin-left: 15px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.forgot-password {
+  text-align: right;
+  position: relative;
+  top: -8px;
+  font-size: em(12px);
+}

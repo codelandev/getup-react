@@ -1,0 +1,37 @@
+.gears {
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.newapp-options {
+
+  .section-title {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.option-box {
+  border: 1px solid rgba(#ccc, .5);
+  box-shadow: 0 0 .5px rgba(#ccc, .5);
+  padding: 10px;
+  margin-top: 20px;
+
+
+  label {
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+}

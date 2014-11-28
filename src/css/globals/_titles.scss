@@ -1,0 +1,24 @@
+.top {
+  @include clearfix;
+  margin: 20px 0;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 20px;
+  font-weight: 300;
+
+  h2 {
+    color: $brand-red;
+    font-weight: 300;
+  }
+
+}
+
+.action {
+  h4 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.top-subtitle {
+  margin-bottom: 30px;
+}

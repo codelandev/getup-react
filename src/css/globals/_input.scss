@@ -1,0 +1,24 @@
+.input-inline {
+
+  & >   label,
+  & > #{$all-text-inputs},
+  .select,
+  .tab  {
+    float: left;
+  }
+
+  label {
+    padding: 8px;
+  }
+}
+
+.input-newapp-inline {
+  @extend .input-inline;
+
+  &> label {
+    width: 150px;
+    font-weight: bold;
+    color: $brand-red;
+    font-size: em(14px);
+  }
+}

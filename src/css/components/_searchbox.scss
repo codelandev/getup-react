@@ -1,0 +1,13 @@
+.searchbox {
+  height: 40px;
+
+  label {
+    font-size: em(12px);
+    color: #222;
+  }
+
+  input {
+    width: 40%;
+    maring-right: 10%;
+  }
+}
